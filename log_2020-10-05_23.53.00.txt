@@ -1,0 +1,41 @@
+2020-10-05 23:53:01,810 INFO rpr.engine.init [11080]:  RPR Core version: 1.35.0 build 0x6a03c5b6
+2020-10-05 23:53:01,824 INFO rpr.engine.init [11080]:  Image Filters version 1.5.1 build 0xefd92438
+2020-10-05 23:53:01,825 INFO rpr.default [11080]:  rprsdk_bin_path: C:\Users\HP\AppData\Roaming\Blender Foundation\Blender\2.90\scripts\addons\rprblender
+2020-10-05 23:53:03,132 INFO rpr.material_library [11080]:  Material library located at C:\ProgramData\RadeonProRender\MaterialLibrary\Xml
+Blender 2.90.1 (hash 3e85bb34d0d7 built 2020-09-23 08:36:20)
+Read prefs: C:\Users\HP\AppData\Roaming\Blender Foundation\Blender\2.90\config\userpref.blend
+found bundled python: C:\Program Files\Blender Foundation\Blender 2.90\2.90\python
+Read blend: C:\Users\HP\Desktop\blender_script\scene_2.blend
+Fra:114 Mem:66.47M (Peak 67.00M) | Time:00:00.18 | Start syncing
+Fra:114 Mem:66.47M (Peak 67.00M) | Time:00:00.70 | Syncing object (0/4): Light
+Fra:114 Mem:66.47M (Peak 67.00M) | Time:00:00.71 | Syncing object (1/4): Plane
+Fra:114 Mem:66.47M (Peak 67.00M) | Time:00:00.71 | Syncing object (2/4): Object
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.89 | Syncing instances 0%
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.89 | Syncing instances 100%
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.89 | Syncing particles
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.91 | Finish syncing
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.91 | Start render
+Fra:114 Mem:76.16M (Peak 76.16M) | Time:00:00.91 | Render Time: 0.0 sec | Samples: 0/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:04.43 | Render Time: 3.5 sec | Samples: 4/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:07.05 | Render Time: 6.1 sec | Samples: 8/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:09.67 | Render Time: 8.8 sec | Samples: 12/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:12.29 | Render Time: 11.4 sec | Samples: 16/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:14.90 | Render Time: 14.0 sec | Samples: 20/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:17.54 | Render Time: 16.6 sec | Samples: 24/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:20.19 | Render Time: 19.3 sec | Samples: 28/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:22.87 | Render Time: 22.0 sec | Samples: 32/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:25.50 | Render Time: 24.6 sec | Samples: 36/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:28.26 | Render Time: 27.3 sec | Samples: 40/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:30.88 | Render Time: 30.0 sec | Samples: 44/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:33.50 | Render Time: 32.6 sec | Samples: 48/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:36.15 | Render Time: 35.2 sec | Samples: 52/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:38.80 | Render Time: 37.9 sec | Samples: 56/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:41.53 | Render Time: 40.6 sec | Samples: 60/128
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:44.18 | Render Time: 43.3 sec | Samples: 64/128 | Adaptive Sampling: 0%
+Fra:114 Mem:76.16M (Peak 115.71M) | Time:00:45.32 | Finish render
+Fra:114 Mem:48.27M (Peak 115.71M) | Time:00:45.44 | Sce: Scene Ve:0 Fa:0 La:0
+Saved: 'C:\Users\HP\Desktop\blender_script\img_2020-10-05_23.53.00.png'
+ Time: 00:46.61 (Saving: 00:01.17)
+
+
+Blender quit
