@@ -1,0 +1,38 @@
+pipeline {
+    agent none
+    stages {
+        stage('Cleans_workspace') {
+            agent {
+            label 'windows'
+            }
+            steps {
+                bat 'del * /F /Q'
+            }
+        }
+        stage('Render') {
+            agent {
+            label 'windows'
+            }
+            environment { 
+                scene = unstashParam "scene"
+                script = 'C:\\Users\\HP\\Desktop\\blender_script\\main.py'
+            }
+            steps {
+                bat 'python %script% %scene% -RGB %RGB%'
+                stash name: "img", includes: "*.png"
+                stash name: "log", includes: "*.txt"
+                archiveArtifacts artifacts: '*', excludes: '*.blend', followSymlinks: false
+            }
+        }
+        stage('Save_result') {
+            agent {
+            label 'master'
+            }
+            steps {
+                unstash "img"
+                unstash "log"
+                
+            }
+        }
+    }
+}
